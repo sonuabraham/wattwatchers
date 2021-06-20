@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(libwwconfig_project)
+add_library(wwconfig SHARED wwconfig.c)
+target_link_libraries(wwconfig config)
+install(TARGETS wwconfig DESTINATION lib)
+install(FILES wwconfig.h DESTINATION include)
