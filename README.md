@@ -1,7 +1,7 @@
 # Wattwatchers 
 A library to configure Wattwatchers Auditor configuration files.
 
-##Build Instructions
+# Build Instructions
 1. The library uses CMake and depends on libconfig library. 
 Install the above two by running the following commands.
 
